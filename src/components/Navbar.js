@@ -18,11 +18,11 @@ function Navbar(){
                 <a href='/#'>Fan Zone</a>
                 <a href='/#'>Shop</a>
 
-                <button>
+                <button onClick={showNavbar}>
                     <FaTimes />
                 </button>
 
-                <button>
+                <button onClick={showNavbar}>
                     <FaBars />
                 </button>
             </nav>
